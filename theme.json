@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "$schema": "https://schemas.wp.org/wp/6.7/theme.json",
   "version": 3,
@@ -129,3 +130,136 @@
     }
   }
 }
+=======
+{
+  "$schema": "https://schemas.wp.org/wp/6.7/theme.json",
+  "version": 3,
+  "styles": {
+    "typography": {
+      "fontFamily": "var(--wp--preset--font-family--system-fonts)"
+    }
+  },
+  "settings": {
+    "appearanceTools": true,
+
+    "color": {
+      "palette": [
+        {
+          "color": "#f4ce14",
+          "name": "Base",
+          "slug": "base"
+        },
+        {
+          "color": "#9a2da1",
+          "name": "Secondary",
+          "slug": "secondary"
+        },
+        {
+          "color": "#ff7b13",
+          "name": "Error",
+          "slug": "error"
+        },
+        {
+          "color": "#b9d619",
+          "name": "Success",
+          "slug": "success"
+        },
+        {
+          "color": "#4f3250",
+          "name": "Paragraph text",
+          "slug": "paragraph-text"
+        },
+        {
+          "color": "#ffffff",
+          "name": "white",
+          "slug": "white"
+        }
+      ]
+    },
+    "layout": {
+      "contentSize": "1500px",
+      "wideSize": "1500px"
+    },
+    "typography": {
+      "fontSizes": [
+        {
+          "fluid": {
+            "max": "1.1rem",
+            "min": "0.9rem"
+          },
+          "name": "Small",
+          "size": "1rem",
+          "slug": "small"
+        },
+        {
+          "fluid": {
+            "max": "1.125rem",
+            "min": "1rem"
+          },
+          "name": "Medium",
+          "size": "1.125rem",
+          "slug": "medium"
+        },
+        {
+          "fluid": {
+            "max": "1.465rem",
+            "min": "1.225rem"
+          },
+          "name": "Large",
+          "size": "1.46rem",
+          "slug": "large"
+        },
+        {
+          "fluid": {
+            "max": "3.1rem",
+            "min": "1.9rem"
+          },
+          "name": "Extra Large",
+          "size": "3.1rem",
+          "slug": "x-large"
+        },
+        {
+          "fluid": {
+            "max": "3.8rem",
+            "min": "2.3rem"
+          },
+          "name": "Extra Extra Large",
+          "size": "3.8rem",
+          "slug": "xx-large"
+        }
+      ],
+      "fontFamilies": [
+        {
+          "name": "Inter",
+          "slug": "system-fonts",
+          "fontFamily": "'Inter', serif",
+          "fontFace": [
+            {
+              "src": ["file:./assets/fonts/Inter/static/Inter_18pt-Light.ttf"],
+              "fontFamily": "Inter",
+              "fontWeight": "300",
+              "fontStyle": "normal"
+            },
+            {
+              "src": ["file:./assets/fonts/Inter/static/Inter_18pt-Medium.ttf"],
+              "fontFamily": "Inter",
+              "fontWeight": "500",
+              "fontStyle": "normal"
+            }
+          ]
+        }
+      ]
+    },
+    "blocks": {
+      "core/heading": {
+        "color": {
+          "text": "#9a2da1"
+        },
+        "typography": {
+          "lineHeight": "1.4"
+        }
+      }
+    }
+  }
+}
+>>>>>>> dacb87d (dasdsad)
