@@ -1,0 +1,751 @@
+/*
+Theme Name: child of twentys
+Theme URI: https://wordpress.org/themes/twentytwentychild/
+Template: twentytwentyfive
+Author: Uzair
+Author URI: https://wordpress.org
+Description: child of twenty twenty made by me , uzair faisal
+Version: 1.0.1742487570
+Updated: 2025-03-20 16:19:30
+
+*/
+
+
+.rel {
+    position: relative;
+}
+
+.hero-mobile-abs {
+    position: absolute !important;
+    right: 0px;
+    top: 30px;
+}
+
+.testimonial-sphere-profile {
+    min-width: 50px !important;
+    min-height: 50px !important;
+}
+
+.w-100-image img {
+    width: 100% !important;
+    object-fit: contain !important;
+}
+
+.quote-svg {
+    width: 70px !important;
+
+}
+
+.quote-svg path {
+    fill: #f4ce14;
+}
+
+.table-check-sphere {
+
+    display: flex;
+}
+
+/* .table-check-sphere>* {
+    max-width: 26px;
+} */
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+}
+
+.table {
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.2)
+}
+
+.the-one {
+    box-shadow: 0px 0px 10px 0px rgba(92, 36, 227, 0.2)
+}
+
+.button {
+    width: auto !important;
+}
+
+.footer-mobile-abs {
+    position: absolute;
+    right: 0;
+    bottom: 0px;
+    transform: translateY(700px);
+    transition: 600ms ease;
+    top: -170px;
+    transform: translateY(200px);
+}
+
+.footer-mobile-abs img {
+    max-height: 700px;
+    object-fit: contain !important;
+    width: auto;
+}
+
+.underline-none a {
+    text-decoration: none !important;
+}
+
+.devices-container {
+    width: 430px;
+}
+
+.overflow-auto {
+    overflow: auto !important;
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
+.fade-child-one {
+    opacity: 0;
+    transition: 250ms ease-in;
+}
+
+.fade-child-two {
+    opacity: 0;
+    transition: 250ms ease-in 300ms;
+}
+
+/* .info-transform-container {
+    opacity: 0;
+
+} */
+
+.info-text {
+    opacity: 0;
+    transition: 250ms opacity
+}
+
+
+
+.left-animation {
+    transform: translateX(-200vw);
+    transition: 600ms transform;
+}
+
+.right-animation {
+    transform: translateX(200vw);
+    transition: 600ms transform
+}
+
+.transform-zero {
+    transform: translate(0);
+}
+
+.culinary-container {
+    max-width: 310px !important;
+    width: 100%;
+    height: 100%;
+    height: 60%;
+}
+
+.culinary-section {
+    /* overflow: hidden; */
+}
+
+.knife {
+    position: absolute;
+    top: 0;
+    right: 20px;
+    transition: 600ms all;
+
+}
+
+.fork {
+    width: fit-content;
+    transition: 600ms all;
+    position: absolute;
+    left: 20px;
+    z-index: 8;
+}
+
+.fork-rotate {
+    transform: rotate(45deg);
+    left: 85px !important;
+}
+
+.knife-rotate {
+    transform: rotate(-45deg);
+    right: 85px !important;
+}
+
+.secondary-text {
+    opacity: 0;
+    transition: 350ms ease;
+    transition-delay: 600ms;
+}
+
+
+.desktop-none {
+    display: none;
+}
+
+.f-1 {
+    flex: 1;
+}
+
+.static {
+    position: static !important;
+}
+
+.fade-opacity-increase {
+    opacity: 1;
+}
+
+.menu {
+    position: absolute !important;
+    top: auto !important;
+    width: 70vw !important;
+    transition: 200ms margin-left;
+    margin-left: -200vw !important;
+    background-color: white;
+    left: 0;
+    height: 100vh;
+    overflow: scroll;
+    scrollbar-width: none;
+    display: none !important;
+    padding-top: 10px !important;
+}
+
+.scroll-stop {
+    overflow: hidden;
+}
+
+html body .menu-display {
+    margin-left: 0 !important;
+}
+
+.menu-overlay {
+    opacity: 0;
+    position: fixed;
+    width: 0vw;
+    height: 100vh;
+    transition: 300ms opacity ease 100ms;
+    margin-top: 0 !important;
+    display: none !important;
+    top: 0 !important;
+}
+
+html body .menu-overlay-display {
+
+    background-color: rgba(0, 0, 0, 0.5) !important;
+    opacity: 1;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+}
+
+.header {
+    position: relative;
+    z-index: 99;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.options {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 2%;
+}
+
+.options label {
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: aqua;
+    border-radius: 8px;
+}
+
+.mobile-appear {}
+
+.forknknife-col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonial-box {
+    transform: translateY(50px);
+    opacity: 0;
+    transition: 500ms all;
+}
+
+.fade-in-box {
+    transform: translate(0);
+    opacity: 1;
+}
+
+.info-icon {
+    width: 50px;
+}
+
+.contact-section>div {
+    width: 50% !important;
+}
+
+.wpforms-field-container {
+    width: 80% !important;
+}
+
+form {
+    align-items: baseline;
+}
+
+textarea {
+    height: 200px !important;
+    background-color: transparent !important;
+    border: 1px solid #9a2da1 !important;
+    ;
+
+}
+
+.submit-btn {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+}
+
+@media screen and (max-width:1100px) {
+    .tab-none {
+        display: none !important;
+    }
+
+    .desktop-none {
+        display: block;
+    }
+
+    .first-mobile {
+        margin-left: -60px !important
+    }
+
+    .devices-container {
+        width: 380px;
+    }
+
+    .testimonials-cont {
+        gap: 1rem;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    .info-box {
+        padding: 20px !important;
+    }
+
+    .info-boxes-container {
+        gap: 1rem !important;
+    }
+
+    .padding-zero-tab {
+        padding: 0 !important;
+    }
+
+    .forknknife-col {
+        /* margin-top: 100px !important; */
+    }
+
+    .padding-inner-tab {
+        padding-left: 30px !important;
+        padding-right: 30px !important;
+    }
+
+    /* .footer-mobile-abs {
+        right: 30px;
+
+    } */
+
+    .footer-mobile-abs img {
+        /* max-height: 500px; */
+    }
+
+    .card-content {
+        max-width: 50%;
+    }
+
+    .menu {
+        display: block !important;
+    }
+
+    .menu {
+        position: absolute !important;
+        top: 0;
+        width: 90vw !important;
+        transition: 200ms margin-left;
+        margin-left: -200vw !important;
+        background-color: white;
+        left: 0;
+        height: 100vh;
+        overflow: scroll;
+        padding-bottom: 230px !important;
+        scrollbar-width: none;
+    }
+
+    .menu-overlay {
+        display: block !important;
+    }
+
+    .menu-overlay {
+
+        opacity: 0;
+        position: fixed;
+        width: 0vw;
+        height: 100vh;
+        transition: 300ms opacity ease 100ms;
+        margin-top: 0 !important;
+    }
+
+    .fork {
+        left: 0;
+    }
+
+    .knife {
+        right: 0;
+    }
+
+    .fork-rotate {
+        left: 70px !important;
+    }
+
+    .knife-rotate {
+        right: 70px !important;
+    }
+
+    .diff-section {
+        overflow: hidden;
+    }
+
+    .wpforms-field-container {
+        width: 100% !important;
+    }
+
+    .table-cont-cont {
+        overflow: scroll;
+    }
+
+    .table-cont {
+        width: 1200px;
+    }
+
+}
+
+@media screen and (max-width:796px) {
+    .top-section-mobile {
+        flex-direction: column !important;
+        justify-content: center !important;
+        gap: 2.3rem;
+        padding-top: 150px;
+        padding-bottom: 50px;
+        overflow: hidden;
+    }
+
+    /* .first-mobile {
+        margin-left: 0 !important;
+    } */
+
+    .theme-btn {
+        justify-content: center;
+    }
+
+    .direction-mobile {
+        flex-direction: column !important;
+    }
+
+    .info-box {
+        min-height: 300px !important;
+    }
+
+    .boxes-parent {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+        align-items: stretch;
+        padding: 0 !important;
+
+    }
+
+    .info-box {
+        height: 100%;
+        margin: 0
+    }
+
+    .testimonial-box {
+        min-height: 250px !important;
+    }
+
+    /* .table-col>* {
+        min-width: 150px;
+        flex-basis: auto !important;
+    } */
+
+    .table-cont {
+        /* overflow: scroll !important; */
+        display: flex;
+        flex-direction: column;
+        width: 1100px;
+        scrollbar-width: 0;
+    }
+
+
+
+    .table-cont-cont {
+        overflow: scroll;
+
+    }
+
+    /* .table-cont>* {
+        min-width: 100%;
+        max-width: none;
+        display: flex;
+        flex-direction: column
+    } */
+    .table-img-col {
+        flex-basis: 15% !important;
+
+    }
+
+    .mobile-section-padding {
+        padding-top: 250px !important;
+    }
+
+    .footer-mobile-abs {
+        position: static;
+        max-width: 100%;
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+        display: flex;
+        justify-content: center;
+        margin-bottom: -200px !important;
+        padding-top: 1.5rem;
+
+    }
+
+    .footer-mobile-abs img {
+        max-width: 300px;
+    }
+
+    .newsletter-box {
+        padding-bottom: 0 !important;
+        gap: 2rem !important;
+        margin-bottom: -200px;
+        padding-top: 45px !important;
+    }
+
+    .center-mobile {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .direction-mobile-reverse {
+        flex-direction: column-reverse;
+    }
+
+    .forknknife-col {
+        display: flex;
+        margin: 0 !important;
+        justify-content: center;
+        min-height: 230px;
+        flex-basis: 0 !important;
+    }
+
+    /* .fork {
+        position: static
+    } */
+
+
+
+    .footer-row {
+        gap: 3rem;
+    }
+
+    .padding-inner-tab {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+
+    .button {
+        min-width: 250px;
+    }
+
+    .devices-container {
+        width: auto;
+    }
+
+    .top-mobile img {
+        object-fit: contain !important;
+        width: 308px !important;
+        height: 308px !important;
+    }
+
+    .hero-mobile-abs {
+        right: -90px;
+    }
+
+
+
+    .knife img,
+    .fork img {
+        max-height: 300px !important;
+    }
+
+    .fork {
+        left: 45px;
+    }
+
+    .knife {
+        right: 45px;
+    }
+
+    .info-transform-container {
+        padding-top: 20px !important;
+    }
+
+    .top-section-mobile {
+        padding-top: 0 !important;
+    }
+
+    .card-content {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 !important;
+    }
+
+    .card-content h3 {
+        margin: 0 !important;
+    }
+
+    .card-upper-cont {
+        max-width: 100%;
+        overflow: hidden;
+    }
+
+
+    .card-btn {
+        max-width: 100%;
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+    }
+
+    .knife-rotate {
+        right: 100px !important;
+    }
+
+    .fork-rotate {
+        left: 100px !important;
+    }
+
+    .newsletter-section {
+        padding-top: clamp(30px, 5vw, 50px) !important;
+        padding-bottom: clamp(30px, 5vw, 50px) !important;
+    }
+
+    .contact-section>div {
+        width: 100% !important;
+    }
+
+    .padding-zero-mobile {
+        padding: 0 !important;
+    }
+
+    .table div {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+
+    .contact-section {
+        gap: 2rem !important;
+        justify-content: center !important;
+    }
+
+    .first-section-height {
+        min-height: 0vh !important;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .height-auto-mobile img {
+        height: auto !important;
+        max-width: 300px;
+    }
+
+    .height-auto-mobile {
+        display: flex;
+        justify-content: center;
+    }
+
+    .diff-content {
+        padding-top: 35px;
+    }
+
+    .intro-content {
+        display: flex;
+        flex-direction: column;
+        align-items: top;
+    }
+
+    .info-text {
+        opacity: 1;
+    }
+
+    .table-img-col {
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+}
+
+@media screen and (max-width:520px) {
+    .boxes-parent {
+        grid-template-columns: 1fr;
+
+    }
+
+    .info-box {
+        min-height: 230px !important;
+    }
+
+    .info-box figure {
+        display: flex;
+        justify-content: center;
+    }
+
+    .top-section-mobile {
+        padding-top: 100px;
+    }
+
+    .quote-svg-container {
+        position: absolute;
+    }
+
+    .forknknife-text {
+        margin-top: 70px !important;
+    }
+
+
+
+    .diff-section {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    .diff-content {
+        padding-left: clamp(30px, 5vw, 50px);
+        padding-right: clamp(30px, 5vw, 50px);
+
+    }
+
+    .culinary-section {
+        gap: 0 !important;
+    }
+
+
+}
